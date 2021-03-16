@@ -1,0 +1,38 @@
+main {
+  min-height: 100vh;
+ 
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  padding: 1rem 0;
+}
+.rating span {
+  margin: 0.1rem;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.App{
+  display: flex;
+  justify-content: center;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 60%;
+}
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
